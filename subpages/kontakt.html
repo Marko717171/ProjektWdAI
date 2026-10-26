@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fanklub Jury Krakowsko-Częstochowkiej - Kontakt</title>
+        <link rel="stylesheet" href="../styles/shared.css">
+        <link rel="stylesheet" href="../styles/form.css">
+        <link rel="icon" type="image/x-icon" href="../media/mountain.ico">
+        <script type="text/Javascript" src="../scripts/shared.js"></script>
+        <script type="text/Javascript" src="../scripts/contact.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="../index.html">Strona główna</a>
+                <a href="galeria.html">Galeria</a>
+                <a class="current-page">Kontakt</a>
+            </nav>
+            <section id="login-container">
+                <img src="../media/svg/user.svg" alt="Ikona użytkownika">
+            </section> <!--Handled by shared.js-->
+        </header>
+        <main>
+            <h1>Chcesz nam coś powiedzieć?</h1>
+            <h2>Skontaktuj się z nami za pomocą formularza:</h2>
+            <form>
+                <fieldset>
+                    <legend>Kontakt</legend>
+                    <section>
+                        <label for="message-area">Powiedz nam co chcesz!</label>
+                        <textarea id="message-area" required minlength="5" maxlength="999" placeholder="Drogi Fanklubie Jury..."></textarea>
+                    </section>
+                    <h4>Dane personalne:</h4>
+                    <section>
+                        <label for="name">Imię:*</label>
+                        <input type="text" id="name" required minlength="2" maxlength="100">
+                    </section>
+                    <section>
+                        <label for="surname">Nazwisko:*</label>
+                        <input type="text" id="surname" required minlength="3" maxlength="100">
+                    </section>
+                    <section>
+                        <label for="email">Adres email:*</label>
+                        <input type="email" id="email" required maxlength="254" placeholder="example@example.com">
+                    </section>
+                    <section>
+                        <label for="phone">Nr telefonu:</label>
+                        <input type="tel" id="phone" pattern="^[+]?[0-9\s\-]{7,15}$">
+                    </section>
+                    <section>
+                        <span class="submit-message"></span>
+                        <input type="submit" id="submit" value="Wyślij">
+                    </section>
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+            <blockquote>„Jednym słowem przedziwny zakątek polskiej ziemi, który poznany i spenetrowany – zostanie na zawsze w sercu wędrowca!"</blockquote>
+            <cite>~S. Pagaczewski</cite>
+            <h4>Autor: Marcin Szlęk</h4>
+        </footer>
+    </body>
+</html>

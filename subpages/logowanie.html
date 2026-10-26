@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fanklub Jury Krakowsko-Częstochowkiej - Logowanie</title>
+        <link rel="stylesheet" href="../styles/shared.css">
+        <link rel="stylesheet" href="../styles/form.css">
+        <link rel="icon" type="image/x-icon" href="../media/mountain.ico">
+        <script type="text/Javascript" src="../scripts/shared.js"></script>
+        <script type="text/Javascript" src="../scripts/login.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="../index.html">Strona główna</a>
+                <a href="galeria.html">Galeria</a>
+                <a href="kontakt.html">Kontakt</a>
+            </nav>
+            <section id="login-container">
+                <img src="../media/svg/user.svg" alt="Ikona użytkownika">
+            </section> <!--Handled by shared.js-->
+        </header>
+        <main>
+            <h1>Zaloguj się</h1>
+            <form>
+                <fieldset>
+                    <legend>Logowanie</legend>
+                    <section>
+                        <label for="email">Email:*</label>
+                        <input type="email" id="email" required maxlength="254" placeholder="example@example.com">
+                    </section>
+                    <section>
+                        <label for="password">Hasło:*</label>
+                        <input type="password" id="password" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[#?!@$%^&*\-]).*" required>
+                        <a>Zapomniałeś hasła?</a>
+                        <a href="rejestracja.html">Nie masz konta? Zarejestruj się</a>
+                    </section>
+                    <section>
+                        <span class="submit-message"></span>
+                        <input type="submit" id="submit" value="Zaloguj">
+                    </section>
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+            <blockquote>„Jednym słowem przedziwny zakątek polskiej ziemi, który poznany i spenetrowany – zostanie na zawsze w sercu wędrowca!"</blockquote>
+            <cite>~S. Pagaczewski</cite>
+            <h4>Autor: Marcin Szlęk</h4>
+        </footer>
+    </body>
+</html>

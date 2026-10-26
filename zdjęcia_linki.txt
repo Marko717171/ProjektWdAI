@@ -1,0 +1,21 @@
+jura.jpg https://orlegniazda.pl/article/1018654
+wycieczki.webp https://jura.travel/poioffer/154
+zamek.jpg https://jura.travel/poioffer/154
+ostaniec.jpg https://pl.wikipedia.org/wiki/Ostaniec
+mountain.png https://www.flaticon.com/free-icon/mountain_281517
+bieganie.jpg https://www.helsana.ch/en/blog/body/exercise/trail-running.html
+
+karta.svg https://www.svgrepo.com/svg/483161/business-card-membership-card
+narty.svg https://www.svgrepo.com/svg/323261/skis
+rodzina.svg https://thenounproject.com/icon/family-5798231/ (Family by Alzam from <a href="https://thenounproject.com/browse/icons/term/family/" target="_blank" title="Family Icons">Noun Project</a> (CC BY 3.0))
+user.svg https://www.svgrepo.com/svg/535711/user
+
+1 https://brubeck.pl/blog/jura-krakowsko-czestochowska-5-miejsc-ktore-musisz-odwiedzic/
+2 https://www.slaskie.travel/article/1018654/jura-krakowsko-czestochowska
+3 https://triverna.pl/blog/jura-krakowsko-czestochowska-atrakcje
+4 https://orlegniazda.pl/article/1018654
+5 https://www.wondertours.pl/blogjura/
+6 https://jura.slaskie.travel/article/849051
+7,8,9 https://orlegniazda.pl/article/1018654
+
+film: https://www.youtube.com/watch?v=ZIa4Gah7_ZY

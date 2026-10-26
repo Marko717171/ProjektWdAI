@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --primary-color: #FCF0DA;
+    --secondary-color: #ccbc7e;
+    --secondary-color-darker: #b9ad7c;
+    --tertiary-color: #F2C46A;
+    --text-color: #4C4541;
+    --error-message: #ffdedd;
+}
+
+*{
+    font-family: Inter, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+    color: var(--text-color);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: var(--text-color);
+}
+
+a:link{
+ color: inherit;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2.5vh 2.5vw 2.5vh 2.5vw; 
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    width: 100%;
+    height: 7vh;
+    position: fixed;
+    z-index: 1;
+    opacity: 90%;
+    font-weight: bold;
+    font-size: clamp(0.7rem, 0.6rem + 0.7vw, 1.25rem);
+    user-select: none;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+nav > a{
+    max-width: 100%;
+    white-space: nowrap;
+}
+
+header a{
+    padding: 1vh 0.2vw 1vh 0.2vw;
+}
+
+header a:hover{
+    background-color: var(--secondary-color-darker);
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+
+.current-page{
+    text-decoration: underline;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+#login-container{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6vw;
+}
+
+#login-container > img{
+    max-width: 1.5rem;
+}
+
+footer{
+    background-color: var(--secondary-color);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(0.6rem, 0.5rem + 0.5vw, 1.25rem);
+    margin-top: 5vh;
+    border-radius: 5px;
+}
+
+fieldset{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2.2vh 1.8vw 2.2vh 1.8vw;
+    gap: 2.5vh;
+    border-radius: 8px;
+}
+
+fieldset > section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1vh;
+}
+
+fieldset textarea{
+    resize: none;
+    width: 100%;
+    height: 20vh;
+    border-radius: 8px;
+    padding: 0.7vh 0.7vw 0.7vh 0.7vw;
+}
+
+fieldset input, fieldset select{
+    width: 100%;
+    height: 3vh;
+    border-radius: 8px;
+    border: 1px solid;
+    padding: 0vh 0.7vw 0vh 0.7vw;
+    background-color: white;
+}
+
+.invalid{
+    background-color: var(--error-message);
+}
+
+@media (min-width: 768px) {
+    fieldset input{
+        height: 4vh;
+    }
+}
+
+label{
+    font-weight: bold;
+}
+
+legend{
+    padding: 0vh 0.5vw 0vh 0.5vw;
+    font-weight: bold;
+}
+
+#submit{
+    width: 30%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+@media (min-width: 768px) {
+    #submit{
+        width: 20%;
+    }
+ 
+}
+
+@media (width>=1350px){
+    #submit{
+        width: 12%;
+    }
+}
+
+.submit-message{
+    margin-bottom: 1vh;
+}
+
+#newsletter{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#newsletter1, #newsletter2{
+    width: 10%; 
+}
