@@ -101,7 +101,7 @@ main{
     max-width: 40vw;
     max-height: 40vh;
     height: auto;
-    aspect-ratio: 4/3;
+    aspect-ratio: 9/16;
     object-fit: cover;
     user-select: none;
 }
