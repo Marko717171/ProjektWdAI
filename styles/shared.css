@@ -50,7 +50,7 @@ header{
     z-index: 1;
     opacity: 90%;
     font-weight: bold;
-    font-size: clamp(0.7rem, 0.6rem + 0.7vw, 1.25rem);
+    font-size: clamp(0.55rem, 0.5rem + 0.7vw, 1.25rem);
     user-select: none;
 }
 
