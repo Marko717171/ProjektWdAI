@@ -20,5 +20,5 @@ function onResize(){
     lockCallToActionCards();
 }
 
-window.addEventListener("DOMContentLoaded", loaded);
+window.addEventListener("load", loaded);
 window.addEventListener("resize",onResize);
